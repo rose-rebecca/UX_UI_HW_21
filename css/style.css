@@ -1,0 +1,13 @@
+/* navigation */
+header {
+    background-color: #e5b2ece7;
+    display: flex;
+}
+
+body {
+    background-image: url("/images/pexels-marko-blazevic-1053687.jpg")
+}
+
+header li {
+    display: inline-block;
+}
