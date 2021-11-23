@@ -1,6 +1,7 @@
 /* navigation */
 header {
     background-color: #e5b2ece7;
+    max-height: 120px;
 }
 
 .site-header-wrapper {
@@ -10,37 +11,62 @@ header {
 }
 
 .logo {
-    height: 150px;
-    width: 150px;
+    height: 75px;
+    width: 75px;
+    padding: 10px;
 }
 
-.paintingLogo {
-    justify-content: flex-start
+h2 {
+    text-align: center;
+    padding-top: 20px;
 }
 
 header li {
     display: inline-block;
+    padding: 15px;
 }
 
-h2 {
+h3 {
+    padding-top: 19%;
    text-align: center;
    font-size: 60px;
+   color: aliceblue;
 }
 
+.card-deck {
+    padding-top: 50px;
+}
+.card-img-top {
+    height: 300px;
+    width: 300px;
+}
+.card-body h5 {
+    font-size: 35px;
+}
+html .homepage {
+    background-image: url(/images/pexels-marko-blazevic-1053687.jpg);
+   max-height:100%;
+}
+button {
+    padding: 10px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
 footer {
     background-color: #e5b2ece7;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-height: max-content;
+    max-height: 120px;
     padding: 50px;
     bottom: 0;
     position: absolute;
     width: 100%;
-
 }
 
 
 footer li {
     display: inline-block;
+    padding: 10px;
 }
