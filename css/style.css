@@ -44,7 +44,7 @@ h3 {
     font-size: 35px;
 }
 html .homepage {
-    background-image: url(/images/pexels-marko-blazevic-1053687.jpg);
+    background-image: url(../images/pexels-marko-blazevic-1053687.jpg);
    max-height:100%;
 }
 button {
