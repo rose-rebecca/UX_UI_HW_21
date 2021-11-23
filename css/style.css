@@ -1,16 +1,46 @@
 /* navigation */
 header {
     background-color: #e5b2ece7;
+}
+
+.site-header-wrapper {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+}
+
+.paintingLogo {
+    justify-content: flex-start
 }
 
 header li {
     display: inline-block;
-    justify-content: flex-end;
 }
 
-.homepage h2 {
+h2 {
    text-align: center;
    font-size: 60px;
 }
 
+footer {
+    background-color: #e5b2ece7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: max-content;
+    padding: 50px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+
+}
+
+
+footer li {
+    display: inline-block;
+}
